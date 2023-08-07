@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1691423063 source:c:\spoj\pa05_pot\main.cpp
+	<iostream>
+	<cmath>
+
