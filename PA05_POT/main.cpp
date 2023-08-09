@@ -1,21 +1,19 @@
 #include <iostream>
 #include <cmath>
-
 using namespace std;
 
 int main()
 {
-    int liczbaPrzypadkow;
-    int podstawa, potega;
-    long long int wynik;
-    const int MIANOWNIK = 10;
+    int a, b, t;
+    cin >> t;
+    while(t--)
+    {
+        cin >> a >> b;
+        b %= 4;
 
-    cin >> liczbaPrzypadkow;
-
-    for (int i = 0; i < liczbaPrzypadkow; ++i){
-        cin >> podstawa >> potega;
-        wynik = pow(podstawa, potega);
-        cout << wynik % MIANOWNIK << endl;
+        if(b == 0){
+            b = 4;
+        }
+        cout << (int)pow(a % 10, b) % 10 << endl;
     }
-    return 0;
 }
