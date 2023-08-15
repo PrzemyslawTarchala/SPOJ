@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1692016566 source:c:\spoj\sys\main.cpp
+	<iostream>
+
