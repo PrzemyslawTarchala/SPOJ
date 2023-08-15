@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1692111835 source:c:\spoj\eti07e5\main.cpp
+	<iostream>
+	<algorithm>
+	<cstdlib>
+
